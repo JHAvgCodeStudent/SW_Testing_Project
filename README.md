@@ -9,11 +9,12 @@ Requires the following languages or extensions to run:
 
 ## How to Run Project
 1. Open the SBFL Jupyter notebook and scroll to the bottom of the page. 
-2. Change input of the Create_Ranked_Lists function as desired (min 0, max 2262)
+2. Change 1st input of the Create_Ranked_Lists function to the number of false tests desired (min 0, max 2262)
+3. Change 2nd input of the Create_Ranked_Lists function to the name of the suspicion report  (default = "test_report")
 3. Select Run All
 
 ## Program Output
-The program outputs the results of the ranked lists for all 4 SBFL suspicion algorithms (Tarantula, SBI, Jaccard, and Ochiai) in the suspicion_reports directory with a title corresponding to the time of creation. 
+The program outputs the results of the ranked lists for all 4 SBFL suspicion algorithms (Tarantula, SBI, Jaccard, and Ochiai) and list of falsified tests in the suspicion_reports/selected_report_name directory 
 
 The program creates an unsorted version of the suspicion calculation information in a Python dictionary within the Create_Ranked_Lists function, but saving those results were deemed outside the scope of this project. 
 
