@@ -1,7 +1,11 @@
 # SW_Testing_Project
 This is to complete requirements for the SWE-6673 Software Testing and Verification project.
 
-# Program Dependenc
+# Program Dependency
+Requires the following languages or extensions to run:
+1. Python v3.10.x or higher
+2. Jupyter Extension (if using VSCode) or ability to run Jupyter notebooks
+3. Python Extension (if using VSCode) 
 
 ## How to Run Project
 1. Open the SBFL Jupyter notebook and scroll to the bottom of the page. 
